@@ -41,6 +41,9 @@
   <text x="790" y="125" text-anchor="middle" font-size="15" font-weight="bold">Switch 91</text>
   <text x="790" y="145" text-anchor="middle" font-size="12" fill="#555">RELY-TSN12</text>
 
+  <rect x="582" y="84" width="54" height="22" rx="11" fill="#1f5fa8"/>
+  <text x="609" y="100" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">GM</text>
+
   <!-- Nodo -->
   <rect x="520" y="340" width="340" height="110" rx="8" fill="#fff" stroke="#333" stroke-width="1.5"/>
   <rect x="550" y="334" width="20" height="12" fill="#1f5fa8"/>
@@ -48,9 +51,9 @@
   <text x="566" y="250" font-size="13" fill="#1f5fa8" font-family="Courier New, monospace">enp4s0f3</text>
   <text x="784" y="250" font-size="13" fill="#1f5fa8" font-family="Courier New, monospace" text-anchor="end">enp3s0f3</text>
   <text x="560" y="372" text-anchor="middle" font-size="12">ptp4l</text>
-  <text x="560" y="389" text-anchor="middle" font-size="11" fill="#555" font-family="Courier New, monospace">gPTP3.cfg</text>
+  <text x="560" y="389" text-anchor="middle" font-size="11" fill="#555" font-family="Courier New, monospace">gPTP4.cfg</text>
   <text x="790" y="372" text-anchor="middle" font-size="12">ptp4l</text>
-  <text x="790" y="389" text-anchor="middle" font-size="11" fill="#555" font-family="Courier New, monospace">gPTP4.cfg</text>
+  <text x="790" y="389" text-anchor="middle" font-size="11" fill="#555" font-family="Courier New, monospace">gPTP3.cfg</text>
   <text x="675" y="432" text-anchor="middle" font-size="15" font-weight="bold">nodo16p</text>
   <text x="525" y="414" font-size="11" fill="#6b6b6b">gestión</text>
 
