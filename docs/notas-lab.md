@@ -48,3 +48,9 @@ Convergencia tras arranque: 4–6 s. Offsets = estimación interna del esclavo, 
 - Saber si el switch usa internamente el valor negativo o el 0 recortado (comparar PHC del nodo / preguntar a SOC-E).
 - Preguntar a SOC-E el origen de las latencias 323/1690 ns, one-step, versión 802.1AS, persistencia de la config.
 - Gráfica de los barridos y tabla para la memoria (estudiante).
+
+## Captura de 15 min, una muestra por Sync (19/11/26)
+- `summary_interval -3` en `[global]` de gPTP3/4.cfg → una línea por Sync (8/s). Se comentó `gmCapable` (opción no reconocida por la versión de ptp4l usada).
+- CSV generados con awk (`tiempo;offset;freq;delay`) y analizados en LibreOffice Calc.
+- Observación cualitativa: el offset de eth4 (directo al GM) tiene bastante menos ruido que el de eth3 (vía switch 91).
+  Pendiente: cuantificar (desviación típica, máx. absoluto) y comprobar el alineamiento temporal de las dos series.
