@@ -54,3 +54,10 @@ Convergencia tras arranque: 4–6 s. Offsets = estimación interna del esclavo, 
 - CSV generados con awk (`tiempo;offset;freq;delay`) y analizados en LibreOffice Calc.
 - Observación cualitativa: el offset de eth4 (directo al GM) tiene bastante menos ruido que el de eth3 (vía switch 91).
   Pendiente: cuantificar (desviación típica, máx. absoluto) y comprobar el alineamiento temporal de las dos series.
+
+## Offset con cable 90–91 de 30 cm vs 10 m (20/11/26)
+- Muestras de 60 s: offset de ptp4l prácticamente idéntico con ambos cables.
+- Esperable: el offset es la estimación interna del esclavo; un error constante del switch 91 (p. ej. por el
+  recorte a 0 del path delay) no es visible desde el nodo. Tampoco cambia el ruido (el cable añade retardo fijo).
+- No resuelve si el recorte a 0 afecta a la sincronización → necesita referencia externa:
+  PPS de 90 y 91 (SMA) en osciloscopio con ambos cables (si hay recorte, el 91 se desplaza ≈ 48 ns más con 10 m).
